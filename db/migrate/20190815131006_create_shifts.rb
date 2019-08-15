@@ -1,7 +1,6 @@
 class CreateShifts < ActiveRecord::Migration[6.0]
   def change
     create_table :shifts do |t|
-      t.string :id
       t.string :user_id
       t.string :start
       t.string :finish
