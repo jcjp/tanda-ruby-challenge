@@ -2,14 +2,26 @@
   "name": "tanda_ruby_challenge",
   "private": true,
   "dependencies": {
-    "@rails/actioncable": "^6.0.0-alpha",
-    "@rails/activestorage": "^6.0.0-alpha",
-    "@rails/ujs": "^6.0.0-alpha",
-    "@rails/webpacker": "^4.0.7",
+    "@rails/actioncable": "^6.1.4",
+    "@rails/activestorage": "^6.1.4",
+    "@rails/ujs": "^6.1.4",
+    "@rails/webpacker": "^4.3.0",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.11.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "ansi-regex@>2.1.1 <5.0.1": ">=5.0.1",
+      "nth-check@<2.0.1": ">=2.0.1",
+      "tar@<4.4.18": ">=4.4.18",
+      "tar@<4.4.16": ">=4.4.16",
+      "tar@<3.2.2": ">=3.2.2",
+      "tar@<3.2.3": ">=3.2.3",
+      "glob-parent@<5.1.2": ">=5.1.2",
+      "trim-newlines@<3.0.1": ">=3.0.1"
+    }
   }
 }

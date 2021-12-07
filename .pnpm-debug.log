@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_AUDIT_NO_LOCKFILE",
+    "err": {
+      "name": "pnpm",
+      "message": "No pnpm-lock.yaml found: Cannot audit a project without a lockfile",
+      "code": "ERR_PNPM_AUDIT_NO_LOCKFILE",
+      "stack": "pnpm: No pnpm-lock.yaml found: Cannot audit a project without a lockfile\n    at Object.handler [as audit] (C:\\Users\\chamv\\AppData\\Roaming\\nvm\\v14.16.0\\node_modules\\pnpm\\dist\\pnpm.cjs:90008:15)\n    at async C:\\Users\\chamv\\AppData\\Roaming\\nvm\\v14.16.0\\node_modules\\pnpm\\dist\\pnpm.cjs:134121:20\n    at async run (C:\\Users\\chamv\\AppData\\Roaming\\nvm\\v14.16.0\\node_modules\\pnpm\\dist\\pnpm.cjs:134095:34)\n    at async runPnpm (C:\\Users\\chamv\\AppData\\Roaming\\nvm\\v14.16.0\\node_modules\\pnpm\\dist\\pnpm.cjs:134307:5)\n    at async C:\\Users\\chamv\\AppData\\Roaming\\nvm\\v14.16.0\\node_modules\\pnpm\\dist\\pnpm.cjs:134299:7"
+    }
+  }
+}
